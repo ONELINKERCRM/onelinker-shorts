@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-21-pm-pf-leads",
+  "scenes": [
+    {"type": "hook", "headline": ["How do you manage", ["Property Finder leads?", "blue"]], "sub": "Here is the simple way, in four steps.", "voice": "How do you manage your Property Finder leads? Here is the simple way, in four steps."},
+    {"type": "feature", "step": "Inbox", "headline": ["Every lead, one inbox"], "screen": "screens/mk-combo-leads.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "First, every lead from Property Finder, the other portals and your Meta forms lands in one inbox."},
+    {"type": "feature", "step": "Agent", "headline": ["Goes to the right agent"], "screen": "screens/mk-assignment.webp", "voice": "Property Finder leads go straight to the listing's agent. For everything else, set your assignment rules once."},
+    {"type": "feature", "step": "Stages", "headline": ["Track every stage"], "screen": "screens/mk-combo-lead.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "Open a lead to move its stage and log calls, viewings and notes."},
+    {"type": "feature", "step": "Mobile", "headline": ["Reply from your phone"], "screen": "screens/mk-m-lead.webp", "voice": "And on the mobile app, tap WhatsApp or call to reply in seconds."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "OneLinker CRM. No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "How to Manage Property Finder Leads | Real Estate CRM Qatar #shorts",
+    "youtube": "How do real estate agencies in Qatar manage Property Finder leads? With OneLinker CRM, every lead from Property Finder, Qatar Living, Property Oryx and Meta lead forms lands in one inbox, Property Finder leads go to the listing's agent, and agents reply by WhatsApp or call from the mobile app. Start your free trial: https://www.onelinker.ai\n\n#RealEstateCRM #PropertyFinder #QatarRealEstate #Doha #RealEstateAgent #CRM",
+    "instagram": "Still chasing Property Finder leads by hand? 📲\n\nHere's how OneLinker CRM handles them:\n✅ Every portal & Meta lead in one inbox\n✅ Property Finder leads go to the listing's agent\n✅ Assignment rules for everything else\n✅ Lead stages, calls, viewings & notes\n✅ WhatsApp & call buttons in the mobile app\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #propertyfinder #qatarrealestate #doha #dohaqatar #realestateagent #lusail #thepearlqatar #qatar #crm",
+    "linkedin": "How does your agency manage Property Finder leads?\n\nWith OneLinker CRM:\n• Every lead from Property Finder, the other portals and Meta lead forms lands in one inbox\n• Property Finder leads go straight to the listing's agent\n• Assignment rules route everything else\n• Agents reply by WhatsApp or call from the mobile app\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #PropertyFinder"
+  }
+}
