@@ -2,7 +2,7 @@
 
 For every content/<id>.json without out/<id>.mp4:
   1. voiceover per scene via ElevenLabs (secret ELEVENLABS_API_KEY)
-  2. real CRM screens from www.onelinker.ai
+  2. CRM mockups from assets/mockups/ in this repo (falls back to www.onelinker.ai)
   3. 1080x1920 motion graphics in the OneLinker brand theme, timed to the voice
   4. writes out/<id>.mp4, out/<id>-preview.jpg, out/<id>.json
 """
@@ -37,6 +37,8 @@ def F(w, s):
     return _fc[k]
 
 def site_img(path):
+    if os.path.exists(path):  # mockups saved in the repo (assets/mockups/...)
+        return Image.open(path).convert('RGBA')
     local = os.path.join(CACHE, path.replace('/', '_'))
     if not os.path.exists(local):
         r = requests.get(f'{SITE}/{path.lstrip("/")}', timeout=60); r.raise_for_status()
@@ -44,7 +46,7 @@ def site_img(path):
     return Image.open(local).convert('RGBA')
 
 def logo_img():
-    for p in ['icon.png', 'logo-128w.png']:
+    for p in ['assets/mockups/logo/onelinker-logo.png', 'icon.png', 'logo-128w.png']:
         try:
             im = site_img(p)
             a = np.array(im); white = a[..., :3].min(axis=2) > 240; a[white, 3] = 0
@@ -108,13 +110,17 @@ class Reel:
         for i, sc in enumerate(spec['scenes']):
             if sc.get('screen'):
                 img = site_img(sc['screen'])
+                if sc.get('crop'):  # [x0, y0, x1, y1] as fractions, to zoom into part of a wide screen
+                    x0, y0, x1, y1 = sc['crop']
+                    img = img.crop((int(x0 * img.width), int(y0 * img.height), int(x1 * img.width), int(y1 * img.height)))
                 # flatten transparent mockups onto white card if they have no alpha use
                 a = np.array(img.getchannel('A'))
+                tall = img.height > img.width * 1.2
                 if a.min() > 250:
-                    card = rounded(fit(img, 900, 860), 28)
+                    card = rounded(fit(img, 900, 1000 if tall else 860), 28)
                     self.cards[i] = ('card', card)
                 else:
-                    self.cards[i] = ('free', fit(img, 960, 900))
+                    self.cards[i] = ('free', fit(img, 1040, 1080 if tall else 980))
 
     def base(self, t):
         im = Image.new('RGBA', (W, H), BG + (255,))
