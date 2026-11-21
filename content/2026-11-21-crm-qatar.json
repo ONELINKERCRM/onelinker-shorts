@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-21-crm-qatar",
+  "voice_id": "dXtC3XhB9GtPusIpNtQx",
+  "scenes": [
+    {"type": "hook", "headline": ["Searching for a", ["real estate CRM", "blue"], "in Qatar?"], "sub": "Stop scrolling. This one is built here.", "footer": "Property Finder  ·  Qatar Living  ·  Property Oryx", "voice": "Searching for a real estate CRM in Qatar? Stop scrolling. This one is built right here."},
+    {"type": "feature", "headline": ["List once.", ["Publish everywhere.", "blue"]], "sub": "Property Finder, Qatar Living, Property Oryx and your own website, from one listing.", "screen": "screens/mk-p-publish.webp", "voice": "With OneLinker CRM, you add a property once, and publish it to Property Finder, Qatar Living, Property Oryx and your website."},
+    {"type": "feature", "headline": ["Every lead.", ["One inbox.", "blue"]], "sub": "Meta, Instagram and portal leads, with source, agent and stage on every row.", "screen": "screens/mk-combo-leads.webp", "voice": "Every lead from Meta, Instagram and the portals lands in one inbox, assigned to the right agent."},
+    {"type": "feature", "headline": ["Teams, managers", ["and roles.", "blue"]], "sub": "Every manager runs their own team. You decide who sees and does what.", "screen": "screens/mk-team.webp", "voice": "Each manager runs their own team, and you decide exactly who sees and does what."},
+    {"type": "feature", "headline": ["Your whole agency", ["in your pocket.", "blue"]], "sub": "Installs on iPhone and Android in seconds.", "screen": "screens/mk-m-leads.webp", "voice": "And your agents can do it all from their phones."},
+    {"type": "cta", "title": "OneLinker CRM", "lines": ["The real estate CRM built for Qatar", "Listings · Portals · Leads · Teams"], "button": "Start free  →", "voice": "OneLinker CRM. The real estate CRM built for Qatar. Start free at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Best Real Estate CRM in Qatar? Meet OneLinker CRM #shorts",
+    "youtube": "Looking for a real estate CRM in Qatar? OneLinker CRM is built for Qatar agencies: publish listings to Property Finder, Qatar Living and Property Oryx in one click, manage every lead in one inbox, and run teams with managers and role-based access, on desktop or phone.\n\nStart free: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #PropertyFinder #CRM #RealEstateQatar",
+    "instagram": "Searching for a real estate CRM in Qatar? 👀\n\nOneLinker CRM is built for agencies here:\n✅ List once, publish to Property Finder, Qatar Living & Property Oryx\n✅ Every lead in one inbox\n✅ Teams, managers & roles\n✅ Works on your phone\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #realestateagent #qatar #crm",
+    "linkedin": "Searching for a real estate CRM in Qatar?\n\nMost CRMs are generic and complicated. OneLinker CRM is built for Qatar real estate agencies:\n\n• Add a listing once and publish it to Property Finder, Qatar Living, Property Oryx and your website\n• Every lead from Meta, Instagram and the portals in one inbox, assigned to the right agent\n• Teams with their own managers and role-based access\n• The whole CRM on your agents' phones\n\nStart free: https://www.onelinker.ai\n\n#RealEstate #Qatar #CRM #PropTech #Doha"
+  }
+}
