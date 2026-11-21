@@ -1,0 +1,39 @@
+name: build-reel
+on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'tools/**', '.github/workflows/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: build-reel
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q pillow numpy requests
+      - name: Build reels
+        id: build
+        continue-on-error: true
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python tools/build.py
+      - name: Save outputs
+        if: always()
+        run: |
+          git config user.name "onelinker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out
+          git commit -m "Render reels [skip ci]" || echo "nothing to commit"
+          git pull --rebase -q origin main || true
+          git push
