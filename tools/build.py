@@ -15,7 +15,8 @@ W, H, FPS = 1080, 1920, 30
 NAVY = (13, 31, 92); BLUE = (29, 91, 240); LIGHT = (232, 240, 254); BG = (246, 248, 252); GREY = (90, 102, 130)
 CACHE = '.cache'; os.makedirs(CACHE, exist_ok=True); os.makedirs('out', exist_ok=True)
 SITE = 'https://www.onelinker.ai'
-MILES = 'rNzVNTrvSffyxdrTbLKv'  # Miles - Technical British Narrator (voice of the OneLinker tutorial)
+MILES = 'rNzVNTrvSffyxdrTbLKv'  # Miles - Technical British Narrator (old tutorial voice)
+DEFAULT_VOICE = '3svOJAOhuPHXwQC2H5eq'  # Brady J - friendly, natural, conversational (more human for reels)
 LOG = []
 
 def log(*a):
@@ -57,13 +58,14 @@ def logo_img():
     return Image.new('RGBA', (256, 256), BLUE + (255,))
 
 # ---------- voice ----------
-def tts(text, voice, out_wav):
+def tts(text, voice, out_wav, prev_text='', next_text=''):
     key = os.environ.get('ELEVENLABS_API_KEY')
     if not key: raise RuntimeError('ELEVENLABS_API_KEY secret is missing')
     r = requests.post(f'https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format=mp3_44100_128',
                       headers={'xi-api-key': key, 'Content-Type': 'application/json'},
                       json={'text': text, 'model_id': 'eleven_multilingual_v2',
-                            'voice_settings': {'stability': 0.6, 'similarity_boost': 0.8, 'style': 0.15, 'use_speaker_boost': True, 'speed': 0.92}},
+                            'previous_text': prev_text or None, 'next_text': next_text or None,
+                            'voice_settings': {'stability': 0.4, 'similarity_boost': 0.75, 'style': 0.3, 'use_speaker_boost': True, 'speed': 1.0}},
                       timeout=120)
     if r.status_code != 200: raise RuntimeError(f'ElevenLabs {r.status_code}: {r.text[:300]}')
     mp3 = out_wav.replace('.wav', '.mp3'); open(mp3, 'wb').write(r.content)
@@ -339,10 +341,11 @@ def music(dur, sr=44100):
 
 def build(path):
     spec = json.load(open(path)); rid = spec['id']
-    voice = MILES; sr = 44100  # always the tutorial voice
+    voice = spec.get('voice_id') or DEFAULT_VOICE; sr = 44100
+    vtexts = [sc.get('voice', '') for sc in spec['scenes']]
     clips, timeline, spans, t = [], [], [], 0.0
     for i, sc in enumerate(spec['scenes']):
-        v = tts(sc['voice'], voice, f'{CACHE}/{rid}_{i}.wav') if sc.get('voice') else np.zeros(int(sr * 1.5))
+        v = tts(sc['voice'], voice, f'{CACHE}/{rid}_{i}.wav', ' '.join(vtexts[:i])[-500:], ' '.join(vtexts[i+1:])[:500]) if sc.get('voice') else np.zeros(int(sr * 1.5))
         lead = 1.15 if sc['type'] == 'feature' else 0.35
         tail = 0.7 if i < len(spec['scenes']) - 1 else 2.6
         du = max(lead + len(v) / sr + tail, sc.get('min', 3.0) if sc['type'] != 'feature' else 5.2)
