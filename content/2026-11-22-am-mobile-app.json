@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-22-am-mobile-app",
+  "scenes": [
+    {"type": "hook", "headline": ["Run your agency", ["from your phone?", "blue"]], "sub": "Here's how, in four steps.", "voice": "Can you run your whole real estate agency from your phone? With OneLinker CRM, you can. Here's how."},
+    {"type": "feature", "step": "Install", "headline": ["Install the app"], "screen": "screens/mk-m-properties.webp", "voice": "First, install the OneLinker app on your iPhone or Android. All your listings are right there."},
+    {"type": "feature", "step": "Add", "headline": ["Add listings on the go"], "screen": "screens/mk-m-add.webp", "voice": "Add a new property on the go, ready to publish to Property Finder, Qatar Living and Property Oryx."},
+    {"type": "feature", "step": "Leads", "headline": ["Leads wherever you are"], "screen": "screens/mk-m-leads.webp", "voice": "Every new lead lands in your inbox, wherever you are."},
+    {"type": "feature", "step": "Reply", "headline": ["Reply in one tap"], "screen": "screens/mk-m-lead.webp", "voice": "Open a lead, and tap WhatsApp or call to reply in seconds."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "OneLinker CRM. No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Real Estate CRM App for Agents in Doha | iPhone & Android #shorts",
+    "youtube": "Looking for a real estate CRM app for agents in Qatar? OneLinker CRM installs on iPhone and Android, so your agents can add listings for Property Finder, Qatar Living and Property Oryx, see every new lead and reply by WhatsApp or call from their phone. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #PropertyFinder #RealEstateAgent #CRMApp",
+    "instagram": "Your whole agency, in your pocket 📱\n\nThe OneLinker CRM app for agents in Qatar:\n✅ Installs on iPhone & Android\n✅ Add listings on the go\n✅ Ready for Property Finder, Qatar Living & Property Oryx\n✅ Every new lead in one inbox\n✅ WhatsApp & call buttons to reply in seconds\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #realestateagent #lusail #thepearlqatar #crmapp #qatar",
+    "linkedin": "Can your agents run their day from their phones?\n\nThe OneLinker CRM mobile app:\n• Installs on iPhone and Android\n• Add listings on the go, ready for Property Finder, Qatar Living and Property Oryx\n• Every new lead in one inbox\n• WhatsApp and call buttons to reply in seconds\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #Doha"
+  }
+}
