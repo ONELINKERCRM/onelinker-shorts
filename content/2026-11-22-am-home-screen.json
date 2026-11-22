@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-22-am-home-screen",
+  "scenes": [
+    {"type": "hook", "headline": ["Want your CRM", ["on your phone?", "blue"]], "sub": "No app store needed.", "voice": "Want OneLinker CRM on your phone? You don't need an app store. Here's how."},
+    {"type": "feature", "step": "Open", "headline": ["Open it in Chrome"], "screen": "screens/mk-m-properties.webp", "voice": "First, open onelinker dot A I in Chrome on your phone, and log in."},
+    {"type": "feature", "step": "Add", "headline": ["Add to Home Screen"], "screen": "screens/mk-m-add.webp", "voice": "Tap the Chrome menu, then Add to Home Screen. Now OneLinker opens with one tap, like an app."},
+    {"type": "feature", "step": "Leads", "headline": ["Leads wherever you are"], "screen": "screens/mk-m-leads.webp", "voice": "Open it any time to see your new leads and listings."},
+    {"type": "feature", "step": "Reply", "headline": ["Reply in one tap"], "screen": "screens/mk-m-lead.webp", "voice": "Open a lead, and tap WhatsApp or call to reply in seconds."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "OneLinker CRM. No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Real Estate CRM on Your Phone | Add to Home Screen #shorts",
+    "youtube": "Want your real estate CRM on your phone in Qatar? Open onelinker.ai in Chrome, tap Add to Home Screen, and OneLinker CRM opens with one tap, so agents can check new leads and listings and reply by WhatsApp or call. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #PropertyFinder #RealEstateAgent #CRM",
+    "instagram": "Your CRM on your phone, no app store needed 📱\n\nHow to set up OneLinker CRM:\n✅ Open onelinker.ai in Chrome\n✅ Tap menu → Add to Home Screen\n✅ See new leads & listings anywhere\n✅ Reply by WhatsApp or call in one tap\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #realestateagent #lusail #thepearlqatar #proptech #qatar",
+    "linkedin": "Your agents don't need another app store download.\n\nWith OneLinker CRM:\n• Open onelinker.ai in Chrome and tap Add to Home Screen\n• It opens with one tap, like an app\n• New leads and listings wherever they are\n• WhatsApp and call buttons to reply in seconds\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #Doha"
+  }
+}
