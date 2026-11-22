@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-22-pm-share-listings",
+  "scenes": [
+    {"type": "hook", "headline": ["How do you send", ["listings to clients?", "blue"]], "sub": "Here's the fast way, in four steps.", "voice": "How do you send property listings to your clients, fast? Here's the simple way, in four steps."},
+    {"type": "feature", "step": "Add", "headline": ["Add the property"], "screen": "screens/mk-combo-add.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "First, add the property once, with its photos, price and location."},
+    {"type": "feature", "step": "AI", "headline": ["Write with AI"], "screen": "screens/mk-p-ai.webp", "voice": "Click Write with AI, and it writes the title and description for you."},
+    {"type": "feature", "step": "Share", "headline": ["Share the link"], "screen": "screens/mk-p-share.webp", "voice": "Then share the listing link with your client, in one tap."},
+    {"type": "feature", "step": "Reply", "headline": ["Follow up on WhatsApp"], "screen": "screens/mk-m-lead.webp", "voice": "When they reply, open the lead on your phone and tap WhatsApp or call."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "OneLinker CRM. No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "How to Share Property Listings Fast | Real Estate CRM Qatar #shorts",
+    "youtube": "How do real estate agents in Doha send listings to clients fast? With OneLinker CRM you add a property once, let AI write the title and description, share the listing link in one tap, and follow up by WhatsApp or call from the mobile app. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #RealEstateAgent #PropertyFinder #CRM",
+    "instagram": "Still sending listings to clients one photo at a time? 📲\n\nHow to do it with OneLinker CRM:\n✅ Add the property once\n✅ AI writes the title & description\n✅ Share the listing link in one tap\n✅ Follow up on WhatsApp or call from your phone\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #realestateagent #lusail #thepearlqatar #proptech #qatar",
+    "linkedin": "How fast can your agents send a listing to a client?\n\nWith OneLinker CRM:\n• Add the property once\n• AI writes the listing title and description\n• Share the listing link in one tap\n• Follow up by WhatsApp or call from the mobile app\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #Doha"
+  }
+}
