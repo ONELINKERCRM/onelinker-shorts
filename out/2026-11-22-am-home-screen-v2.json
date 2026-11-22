@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-22-am-home-screen-v2",
+  "duration": 38.2,
+  "video_url": "https://raw.githubusercontent.com/ONELINKERCRM/onelinker-shorts/main/out/2026-11-22-am-home-screen-v2.mp4",
+  "preview_url": "https://raw.githubusercontent.com/ONELINKERCRM/onelinker-shorts/main/out/2026-11-22-am-home-screen-v2-preview.jpg",
+  "scenes": [
+    [
+      0.0,
+      5.55
+    ],
+    [
+      5.55,
+      6.03
+    ],
+    [
+      11.58,
+      7.14
+    ],
+    [
+      18.73,
+      5.2
+    ],
+    [
+      23.93,
+      6.12
+    ],
+    [
+      30.05,
+      8.15
+    ]
+  ]
+}
