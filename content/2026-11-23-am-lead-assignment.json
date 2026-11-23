@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-23-am-lead-assignment",
+  "scenes": [
+    {"type": "hook", "headline": ["Who gets the", ["new lead?", "blue"]], "sub": "Assign leads automatically, in four steps.", "voice": "When a new lead comes in, which agent gets it? Here's how to assign leads automatically, in four steps."},
+    {"type": "feature", "step": "Inbox", "headline": ["All leads in one inbox"], "screen": "screens/mk-combo-leads.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "First, every lead from Meta forms, Google Ads, your website and the portals lands in one inbox."},
+    {"type": "feature", "step": "Rules", "headline": ["Set assignment rules"], "screen": "screens/mk-assignment.webp", "voice": "Next, set your assignment rules, and each new lead goes straight to the right agent."},
+    {"type": "feature", "step": "Teams", "headline": ["Teams and roles"], "screen": "screens/mk-p-roles.webp", "voice": "Group agents into teams, each with its own manager and permissions."},
+    {"type": "feature", "step": "Track", "headline": ["Watch the dashboard"], "screen": "screens/mk-combo-dashboard.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "Then check the dashboard for unassigned leads and first response time."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "OneLinker CRM. No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Lead Assignment for Real Estate Agencies | CRM Qatar #shorts",
+    "youtube": "How do real estate agencies in Qatar make sure every lead reaches the right agent? OneLinker CRM brings leads from Meta forms, Google Ads, your website and the portals into one inbox, assigns them with rules, and lets managers track unassigned leads and first response time. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #LeadManagement #RealEstateAgent #PropertyFinder",
+    "instagram": "New lead comes in… who's handling it? 🤔\n\nWith OneLinker CRM:\n✅ Every lead in one inbox\n✅ Assignment rules send it to the right agent\n✅ Teams with their own managers & roles\n✅ Dashboard shows unassigned leads & first response time\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #realestateagent #lusail #thepearlqatar #leadmanagement #qatar",
+    "linkedin": "When a new lead comes in, does your agency know exactly who handles it?\n\nWith OneLinker CRM:\n• Every lead from Meta, Google Ads, your website and the portals in one inbox\n• Assignment rules route each lead to the right agent\n• Teams with their own managers and role-based access\n• A dashboard for unassigned leads and first response time\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #LeadManagement"
+  }
+}
