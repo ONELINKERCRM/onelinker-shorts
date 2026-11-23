@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-23-pm-publish-once",
+  "duration": 38.95,
+  "video_url": "https://raw.githubusercontent.com/ONELINKERCRM/onelinker-shorts/main/out/2026-11-23-pm-publish-once.mp4",
+  "preview_url": "https://raw.githubusercontent.com/ONELINKERCRM/onelinker-shorts/main/out/2026-11-23-pm-publish-once-preview.jpg",
+  "scenes": [
+    [
+      0.0,
+      6.39
+    ],
+    [
+      6.39,
+      5.2
+    ],
+    [
+      11.59,
+      5.61
+    ],
+    [
+      17.2,
+      8.68
+    ],
+    [
+      25.88,
+      5.2
+    ],
+    [
+      31.08,
+      7.87
+    ]
+  ]
+}
