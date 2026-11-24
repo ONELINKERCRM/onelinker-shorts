@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-24-pm-ai-crm-qatar",
+  "scenes": [
+    {"type": "hook", "headline": ["An AI real estate", ["CRM in Qatar?", "blue"]], "sub": "Here's how it works, in four steps.", "voice": "Looking for an A I real estate CRM in Qatar? Here's how OneLinker uses A I, in four steps."},
+    {"type": "feature", "step": "Add", "headline": ["Add it from your phone"], "screen": "screens/mk-m-add.webp", "voice": "First, add a new property from your phone, with its photos, price and location."},
+    {"type": "feature", "step": "Write", "headline": ["Write with AI"], "screen": "screens/mk-p-ai.webp", "voice": "Click Write with AI, and it writes the listing title and description for you."},
+    {"type": "feature", "step": "Ask AI", "headline": ["Just Ask AI"], "screen": "screens/mk-p-ask-ai.webp", "voice": "Need help? Open Ask AI, type your question, and get an answer right inside the CRM."},
+    {"type": "feature", "step": "Share", "headline": ["Share the listing link"], "screen": "screens/mk-p-share.webp", "voice": "Then share the listing link with your client in one tap."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "OneLinker CRM. No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "AI Real Estate CRM in Qatar: Listings Written by AI #shorts",
+    "youtube": "Looking for an AI real estate CRM in Qatar? OneLinker CRM lets agents in Doha add a property from their phone, write the listing title and description with AI, get answers with Ask AI and share listing links with clients. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #AICRM #QatarRealEstate #Doha #RealEstateAgent #PropertyFinder #PropTech",
+    "instagram": "Still writing every listing description by hand? ✍️\n\nOneLinker CRM, the AI real estate CRM for Qatar:\n✅ Add a property from your phone\n✅ Write with AI creates the title & description\n✅ Ask AI right inside the CRM\n✅ Share listing links with clients in one tap\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #realestateagent #lusail #thepearlqatar #aitools #qatar",
+    "linkedin": "How much time do your agents spend writing listing descriptions?\n\nWith OneLinker CRM:\n• Add a property from the mobile app\n• Write with AI creates the listing title and description\n• Ask AI answers questions right inside the CRM\n• Share listing links with clients in one tap\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #AI"
+  }
+}
