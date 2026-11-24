@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-24-am-whatsapp-followup",
+  "scenes": [
+    {"type": "hook", "headline": ["Losing leads in", ["WhatsApp?", "blue"]], "sub": "Follow up every lead, in three steps.", "voice": "Losing track of leads in your WhatsApp chats? Here's how to follow up every lead, in three steps."},
+    {"type": "feature", "step": "Inbox", "headline": ["Every lead, one inbox"], "screen": "screens/mk-m-leads.webp", "voice": "First, every lead from Meta forms, Instagram, the portals and your website lands in one inbox, right on your phone."},
+    {"type": "feature", "step": "Stages", "headline": ["Update the lead stage"], "screen": "screens/mk-combo-lead.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "Open a lead, move it to the next stage, and log your calls and viewings as activities."},
+    {"type": "feature", "step": "Reply", "headline": ["WhatsApp in one tap"], "screen": "screens/mk-m-lead.webp", "voice": "Then tap the WhatsApp or call button in the mobile app. Notifications tell you the moment a new lead arrives."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "OneLinker CRM, built for real estate agencies in Qatar. No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Real Estate CRM for Agents in Doha: Never Lose a Lead #shorts",
+    "youtube": "Losing real estate leads in WhatsApp chats? OneLinker CRM gives agents in Doha and across Qatar one lead inbox for Meta forms, Instagram, Property Finder and their website, with lead stages, activities and one-tap WhatsApp from the mobile app. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #RealEstateAgent #PropertyFinder #LeadManagement #WhatsApp",
+    "instagram": "Losing leads somewhere in your WhatsApp chats? 📱\n\nFollow up every lead with OneLinker CRM:\n✅ Every lead in one inbox (Meta, Instagram, portals, website)\n✅ Move leads through stages\n✅ Log calls & viewings as activities\n✅ One-tap WhatsApp & call from the mobile app\n✅ Notifications for every new lead\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #realestateagent #lusail #thepearlqatar #leadmanagement #qatar",
+    "linkedin": "How many leads does your agency lose inside personal WhatsApp chats?\n\nWith OneLinker CRM:\n• Every lead from Meta, Instagram, the portals and your website in one inbox\n• Lead stages and activities for every call and viewing\n• One-tap WhatsApp and call buttons in the mobile app\n• Notifications the moment a new lead arrives\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #LeadManagement"
+  }
+}
