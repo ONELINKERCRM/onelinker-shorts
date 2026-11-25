@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-25-pm-meta-lead-forms",
+  "scenes": [
+    {"type": "hook", "headline": ["Facebook ad leads", ["going cold?", "blue"]], "sub": "Get every lead into your CRM, in four steps.", "voice": "Running Facebook ads for your listings in Qatar? Here's how to get every lead form lead into your CRM, in four steps."},
+    {"type": "feature", "step": "Connect", "headline": ["Connect lead forms"], "screen": "screens/mk-combo-leads.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "First, connect your Facebook and Instagram lead forms. New leads land in one inbox, next to your Google Ads, website and portal leads."},
+    {"type": "feature", "step": "Assign", "headline": ["Set assignment rules"], "screen": "screens/mk-assignment.webp", "voice": "Next, set assignment rules, so each new lead goes to the right agent."},
+    {"type": "feature", "step": "Reply", "headline": ["Reply in one tap"], "screen": "screens/mk-m-lead.webp", "voice": "Your agent gets a notification, then taps WhatsApp or call in the mobile app."},
+    {"type": "feature", "step": "Stages", "headline": ["Track every stage"], "screen": "screens/mk-combo-lead.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "Finally, move the lead through stages, and log every call and viewing."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Facebook Lead Ads to CRM: Real Estate CRM Qatar #shorts",
+    "youtube": "Running Facebook or Instagram lead ads for property in Qatar? OneLinker CRM brings Meta lead form leads into one inbox with your Google Ads, website and Property Finder leads, sends them to the right agent with assignment rules, and lets agents reply on WhatsApp from the mobile app. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #FacebookLeadAds #MetaAds #RealEstateAgent #LeadManagement",
+    "instagram": "Paying for Facebook ads, then losing the leads? 💸\n\nOneLinker CRM for real estate agencies in Qatar:\n✅ Meta lead forms straight into one inbox\n✅ Instagram, Google Ads, website & portal leads together\n✅ Assignment rules send each lead to the right agent\n✅ Instant notifications + one-tap WhatsApp & call\n✅ Lead stages & activities for every follow-up\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #facebookads #metaads #realestateagent #propertyfinder #lusail #qatar",
+    "linkedin": "What happens to your Facebook lead form leads after someone clicks submit?\n\nWith OneLinker CRM:\n• Meta lead form leads arrive in one inbox with Google Ads, website and portal leads\n• Assignment rules send each lead to the right agent\n• Agents get notified and reply on WhatsApp from the mobile app\n• Lead stages and activities track every follow-up\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #LeadGeneration"
+  }
+}
