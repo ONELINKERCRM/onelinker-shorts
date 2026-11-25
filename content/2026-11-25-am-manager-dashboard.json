@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-25-am-manager-dashboard",
+  "scenes": [
+    {"type": "hook", "headline": ["Managing an agency", ["team in Doha?", "blue"]], "sub": "See your whole team, in four steps.", "voice": "Managing a real estate team in Doha? Here's how to see your whole team's performance, in four steps."},
+    {"type": "feature", "step": "Dashboard", "headline": ["Open the dashboard"], "screen": "screens/mk-combo-dashboard.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "First, open the manager dashboard. New leads, conversion rate, first response time and unassigned leads, all on one screen."},
+    {"type": "feature", "step": "Teams", "headline": ["Set teams and roles"], "screen": "screens/mk-p-roles.webp", "voice": "Next, create teams with their own managers, and give each user Admin, Manager or Agent access."},
+    {"type": "feature", "step": "Leads", "headline": ["Track every lead"], "screen": "screens/mk-combo-leads.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "Then open the lead inbox to see every lead, its stage, and the agent working on it."},
+    {"type": "feature", "step": "Mobile", "headline": ["Agents on the go"], "screen": "screens/mk-m-leads.webp", "voice": "Your agents get the same leads in the mobile app, with WhatsApp and call buttons."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Real Estate CRM Qatar: Manager Dashboard for Agencies #shorts",
+    "youtube": "Managing a real estate team in Doha? OneLinker CRM gives agency managers in Qatar a dashboard with new leads, conversion rate, first response time and unassigned leads, plus teams with role-based access and a mobile app for agents. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #RealEstateAgency #PropertyFinder #PropTech #SalesManagement",
+    "instagram": "Do you really know how your agents are doing this week? 📊\n\nOneLinker CRM for real estate agencies in Qatar:\n✅ Manager dashboard: new leads, conversion rate, first response time\n✅ Spot unassigned leads instantly\n✅ Teams with their own managers\n✅ Admin, Manager & Agent roles\n✅ Agents work leads from the mobile app\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #realestateagent #realestatebroker #lusail #thepearlqatar #qatar",
+    "linkedin": "How quickly does your team respond to new leads?\n\nWith OneLinker CRM, agency managers get:\n• A dashboard with new leads, conversion rate and first response time\n• Unassigned leads flagged at a glance\n• Teams with their own managers and role-based access\n• A mobile app so agents follow up from anywhere\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #SalesManagement"
+  }
+}
