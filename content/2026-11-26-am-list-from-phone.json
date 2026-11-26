@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-26-am-list-from-phone",
+  "scenes": [
+    {"type": "hook", "headline": ["New listing,", ["still at the office?", "blue"]], "sub": "List a property from your phone, in four steps.", "voice": "Just viewed a new property in Lusail? Here's how to list it from your phone, in four steps."},
+    {"type": "feature", "step": "Add", "headline": ["Add the property"], "screen": "screens/mk-m-add.webp", "voice": "First, open the mobile app and tap add property. Enter the price, size and photos."},
+    {"type": "feature", "step": "AI", "headline": ["Write with AI"], "screen": "screens/mk-p-ai.webp", "voice": "Next, tap Write with AI, and it writes the title and description for you."},
+    {"type": "feature", "step": "Publish", "headline": ["Publish everywhere"], "screen": "screens/mk-p-publish.webp", "voice": "Then publish once, to Property Finder, Qatar Living, Property Oryx and your own website."},
+    {"type": "feature", "step": "Share", "headline": ["Share the link"], "screen": "screens/mk-p-share.webp", "voice": "Finally, share the listing link with your client on WhatsApp."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Real Estate CRM Qatar: List a Property From Your Phone #shorts",
+    "youtube": "Real estate agents in Qatar can add a listing from the OneLinker CRM mobile app, let AI write the title and description, and publish it to Property Finder, Qatar Living, Property Oryx and the agency website in one go. Share the listing link with clients on WhatsApp. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #PropertyFinder #RealEstateAgent #PropTech #Lusail",
+    "instagram": "Viewed a new property? List it before you're back at the office 📱\n\nOneLinker CRM for real estate agents in Qatar:\n✅ Add listings from the mobile app (iPhone & Android)\n✅ AI writes the title and description\n✅ Publish to Property Finder, Qatar Living, Property Oryx & your website\n✅ Share the listing link on WhatsApp\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #qatarliving #realestateagent #lusail #thepearlqatar #qatar",
+    "linkedin": "How long does it take your agents to get a new listing live?\n\nWith OneLinker CRM:\n• Agents add listings from the mobile app\n• AI writes the title and description\n• One click publishes to Property Finder, Qatar Living, Property Oryx and your website\n• Listing links are ready to share with clients\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #PropertyFinder"
+  }
+}
