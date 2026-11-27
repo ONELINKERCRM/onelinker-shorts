@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-27-am-track-every-lead",
+  "scenes": [
+    {"type": "hook", "headline": ["Tracking leads from", ["every portal?", "blue"]], "sub": "Manage them in one place, in four steps.", "voice": "Leads coming from Property Finder, Instagram and your website? Here's how to track them all, in four steps."},
+    {"type": "feature", "step": "Inbox", "headline": ["One lead inbox"], "screen": "screens/mk-combo-leads.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "First, every lead from Meta lead forms, Google Ads, the portals and your website lands in one inbox."},
+    {"type": "feature", "step": "Assign", "headline": ["Assign automatically"], "screen": "screens/mk-assignment.webp", "voice": "Next, assignment rules send each new lead to the right agent. Property Finder leads go to the listing's agent."},
+    {"type": "feature", "step": "Stages", "headline": ["Move it through stages"], "screen": "screens/mk-combo-lead.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "Then move the lead through your stages, and add activities like calls and viewings."},
+    {"type": "feature", "step": "Follow up", "headline": ["Follow up on the go"], "screen": "screens/mk-m-lead.webp", "voice": "Finally, your agent follows up from the mobile app, with WhatsApp and call buttons."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "No credit card needed. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "How to Manage Real Estate Leads in Qatar | CRM Doha #shorts",
+    "youtube": "How do real estate agencies in Doha manage leads from Property Finder, Qatar Living, Meta lead forms, Google Ads and their website? OneLinker CRM puts every lead in one inbox, routes it with assignment rules, tracks lead stages and activities, and lets agents follow up from the mobile app with WhatsApp and call buttons. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #PropertyFinder #LeadManagement #RealEstateAgent #PropTech",
+    "instagram": "Leads coming from five places and getting lost? 📥\n\nOneLinker CRM for real estate agencies in Qatar:\n✅ Every lead in one inbox: Meta lead forms, Google Ads, portals & your website\n✅ Assignment rules send each lead to the right agent\n✅ Property Finder leads go to the listing's agent\n✅ Lead stages and activities for every call & viewing\n✅ Follow up from the mobile app with WhatsApp & call buttons\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #qatarliving #realestateagent #leadmanagement #lusail #thepearlqatar",
+    "linkedin": "Where do your agency's leads go after they come in?\n\nWith OneLinker CRM:\n• Leads from Meta lead forms, Google Ads, the portals and your website in one inbox\n• Assignment rules route each lead to the right agent\n• Lead stages and activities show where every deal stands\n• Agents follow up from the mobile app with WhatsApp and call buttons\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #LeadManagement"
+  }
+}
