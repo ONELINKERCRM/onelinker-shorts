@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-27-pm-best-crm-qatar",
+  "scenes": [
+    {"type": "hook", "headline": ["Best real estate", ["CRM in Qatar?", "blue"]], "sub": "What it should do, in four steps.", "voice": "Looking for the best real estate CRM in Qatar? Here's what yours should do, in four steps."},
+    {"type": "feature", "step": "Publish", "headline": ["Publish once"], "screen": "screens/mk-p-publish.webp", "voice": "First, publish each listing once, to Property Finder, Qatar Living, Property Oryx and your own website."},
+    {"type": "feature", "step": "Inbox", "headline": ["One lead inbox"], "screen": "screens/mk-combo-leads.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "Then, every lead from Meta lead forms, Instagram, Google Ads and the portals lands in one inbox."},
+    {"type": "feature", "step": "Ask AI", "headline": ["Just Ask AI"], "screen": "screens/mk-p-ask-ai.webp", "voice": "Need an answer fast? Just Ask AI, right inside your CRM."},
+    {"type": "feature", "step": "Mobile", "headline": ["Follow up on mobile"], "screen": "screens/mk-m-leads.webp", "voice": "Finally, your agents follow up from the mobile app, on iPhone or Android, with WhatsApp and call buttons."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "OneLinker CRM, built for agencies in Qatar. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "Best Real Estate CRM in Qatar? 4 Things It Should Do #shorts",
+    "youtube": "Searching for the best real estate CRM in Qatar? OneLinker CRM lets agencies in Doha publish one listing to Property Finder, Qatar Living, Property Oryx and their website, collect every lead from Meta lead forms, Instagram, Google Ads and the portals in one inbox, use Ask AI, and follow up from the mobile app with WhatsApp and call buttons. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #QatarRealEstate #Doha #PropertyFinder #RealEstateAgent #PropTech #CRMQatar",
+    "instagram": "Looking for the best real estate CRM in Qatar? Here's what it should do 👇\n\n✅ Publish one listing to Property Finder, Qatar Living, Property Oryx & your website\n✅ Every lead from Meta forms, Instagram, Google Ads & portals in one inbox\n✅ Ask AI, right inside your CRM\n✅ Mobile app for iPhone & Android with WhatsApp & call buttons\n✅ Free trial, no credit card\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #qatarrealestate #doha #dohaqatar #propertyfinder #qatarliving #realestateagent #lusail #thepearlqatar #proptech",
+    "linkedin": "What should a real estate CRM in Qatar actually do?\n\nWith OneLinker CRM:\n• Publish one listing to Property Finder, Qatar Living, Property Oryx and your website\n• Every lead from Meta lead forms, Instagram, Google Ads and the portals in one inbox\n• Ask AI, built into the CRM\n• Agents follow up from the mobile app with WhatsApp and call buttons\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #PropertyFinder"
+  }
+}
