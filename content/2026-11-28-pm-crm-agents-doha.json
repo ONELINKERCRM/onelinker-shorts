@@ -1,0 +1,17 @@
+{
+  "id": "2026-11-28-pm-crm-agents-doha",
+  "scenes": [
+    {"type": "hook", "headline": ["CRM for agents", ["in Doha?", "blue"]], "sub": "Your day, in four steps.", "voice": "Are you a real estate agent in Doha looking for a simple CRM? Here's your day with OneLinker, in four steps."},
+    {"type": "feature", "step": "Leads", "headline": ["Your leads, to you"], "screen": "screens/mk-combo-lead.webp", "crop": [0.18, 0.05, 1.0, 1.0], "voice": "First, when someone enquires on your Property Finder listing, the lead comes straight to you."},
+    {"type": "feature", "step": "Stages", "headline": ["Update the stage"], "screen": "screens/mk-m-lead.webp", "voice": "Open the lead, move it to the next stage, and log your call or viewing as an activity."},
+    {"type": "feature", "step": "Share", "headline": ["Share the listing"], "screen": "screens/mk-p-share.webp", "voice": "Then share the listing link with your client, right from the CRM."},
+    {"type": "feature", "step": "Alerts", "headline": ["Never miss a lead"], "screen": "screens/mk-m-leads.webp", "voice": "And notifications tell you the moment a new lead arrives."},
+    {"type": "cta", "lines": ["Every listing.", "Every lead."], "button": "Start free trial", "voice": "Built for agents in Qatar. Start your free trial at onelinker dot A I."}
+  ],
+  "captions": {
+    "youtube_title": "CRM for Real Estate Agents in Doha: Your Day in 4 Steps #shorts",
+    "youtube": "Looking for a simple CRM for real estate agents in Doha? With OneLinker CRM, Property Finder leads go straight to the listing's agent, you move each lead through stages, log calls and viewings as activities, share listing links with clients and get notified the moment a new lead arrives. Start your free trial, no credit card: https://www.onelinker.ai\n\n#RealEstateCRM #RealEstateAgent #Doha #QatarRealEstate #PropertyFinder #CRMQatar #PropTech",
+    "instagram": "Real estate agent in Doha? Here's your day with OneLinker CRM 👇\n\n✅ Property Finder leads come straight to the listing's agent\n✅ Move leads through stages\n✅ Log calls & viewings as activities\n✅ Share listing links with clients\n✅ Notifications the moment a new lead arrives\n✅ Free trial, no credit card\n\nStart free at onelinker.ai (link in bio)\n\n#realestatecrm #realestateagent #doha #dohaqatar #qatarrealestate #propertyfinder #lusail #thepearlqatar #qatarliving #proptech",
+    "linkedin": "What does a real estate agent in Doha need from a CRM every day?\n\nWith OneLinker CRM:\n• Property Finder leads go straight to the listing's agent\n• Lead stages and activities for every call and viewing\n• Share listing links with clients from the CRM\n• Notifications the moment a new lead arrives\n\nBuilt for real estate agencies in Qatar. Start a free trial: https://www.onelinker.ai\n\n#RealEstate #Qatar #PropTech #CRM #PropertyFinder"
+  }
+}
